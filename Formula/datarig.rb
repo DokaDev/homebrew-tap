@@ -5,23 +5,23 @@ class Datarig < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/DokaDev/datarig/releases/download/v0.17.0/datarig-v0.17.0-aarch64-apple-darwin.tar.gz"
-      sha256 "3359395a27dada140ca06c156fc71b07352b4fe4f52b1a6c622332bb1902025a"
+      url "https://github.com/DokaDev/datarig/releases/download/v0.18.0/datarig-v0.18.0-aarch64-apple-darwin.tar.gz"
+      sha256 "ca1614d75cfce9458130c02789ffbbeead14c3307ddaa31dda738f4a85f43c60"
     end
     on_intel do
-      url "https://github.com/DokaDev/datarig/releases/download/v0.17.0/datarig-v0.17.0-x86_64-apple-darwin.tar.gz"
-      sha256 "3ba436eb1406469c4bbb636ab74f352d94ef4729782bbe4e19cc20cacfcd5204"
+      url "https://github.com/DokaDev/datarig/releases/download/v0.18.0/datarig-v0.18.0-x86_64-apple-darwin.tar.gz"
+      sha256 "531fd82f30ca85348cd177a58c729ffbeee80a51c5d0a88d3d5086bde56efd2f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/DokaDev/datarig/releases/download/v0.17.0/datarig-v0.17.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "b3d0b4bf8bcc0e33edd0314c807e13ffa8522850a9d224cba39b6f2acce5e435"
+      url "https://github.com/DokaDev/datarig/releases/download/v0.18.0/datarig-v0.18.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "a5d49f4c9131ae3983a35c185b2fdbf28ecdca28fb4dbb4f29a2b5d5f32a232e"
     end
     on_intel do
-      url "https://github.com/DokaDev/datarig/releases/download/v0.17.0/datarig-v0.17.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "6462662f9d4beb2a42ba799a503d5d860a41f905ad049d364b23e269a0efb8e0"
+      url "https://github.com/DokaDev/datarig/releases/download/v0.18.0/datarig-v0.18.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "e27646165ed1a51d60806e2e57592baafc46526a4f1278b0971b75dba48224b3"
     end
   end
 
