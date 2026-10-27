@@ -5,23 +5,23 @@ class Slakio < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/DokaDev/slakio/releases/download/v0.0.2/slakio-v0.0.2-aarch64-apple-darwin.tar.gz"
-      sha256 "eaceaecb872de2fed2d2f382e4724aed6f433fe7ca69f6fc709819da6752c2a0"
+      url "https://github.com/DokaDev/slakio/releases/download/v0.0.3/slakio-v0.0.3-aarch64-apple-darwin.tar.gz"
+      sha256 "295a8995bb539aa0ccc2737d33e17b3b8a6477406d038b733f172dff02593e71"
     end
     on_intel do
-      url "https://github.com/DokaDev/slakio/releases/download/v0.0.2/slakio-v0.0.2-x86_64-apple-darwin.tar.gz"
-      sha256 "dbb785c7f29c6f2cb4c62ffafcce0e936bfb7f619f1d28aae082ea919a70d6e0"
+      url "https://github.com/DokaDev/slakio/releases/download/v0.0.3/slakio-v0.0.3-x86_64-apple-darwin.tar.gz"
+      sha256 "6907689b20e375ede7c396acbda33bf0d84721ca5f51f0ae75224f6ea15e4ff4"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/DokaDev/slakio/releases/download/v0.0.2/slakio-v0.0.2-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "ee889829ea95fbbb8c78fd69d08ab7090ef1dc40195787223a16860f5a94a3fa"
+      url "https://github.com/DokaDev/slakio/releases/download/v0.0.3/slakio-v0.0.3-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "69756e89db7eff23b677d45ed3353b38939cf3989bb660488e45ded0b8bc5515"
     end
     on_intel do
-      url "https://github.com/DokaDev/slakio/releases/download/v0.0.2/slakio-v0.0.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "d5121593043ab31e783e4569d28f55134c32a9c7f3090daa82941d32bae02b63"
+      url "https://github.com/DokaDev/slakio/releases/download/v0.0.3/slakio-v0.0.3-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "de40d79e13e9b522c20c45683224d054585e74716941267f23ad5275caa6ac68"
     end
   end
 
