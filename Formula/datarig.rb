@@ -1,27 +1,27 @@
 class Datarig < Formula
-  desc "Terminal database client with a DataGrip-style workspace"
+  desc "Full-featured database client for the terminal: light, fast, safe"
   homepage "https://github.com/DokaDev/datarig"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/DokaDev/datarig/releases/download/v0.36.0/datarig-v0.36.0-aarch64-apple-darwin.tar.gz"
-      sha256 "3a4255327fc6cfa2cfe0e5cd74d799d75ccfa20500d120d813123b5b8ce94cd2"
+      url "https://github.com/DokaDev/datarig/releases/download/v0.36.1/datarig-v0.36.1-aarch64-apple-darwin.tar.gz"
+      sha256 "34a82571bd50c91239a06fd8f5704e04a6b91953274492f56c48f7292130026b"
     end
     on_intel do
-      url "https://github.com/DokaDev/datarig/releases/download/v0.36.0/datarig-v0.36.0-x86_64-apple-darwin.tar.gz"
-      sha256 "2c76530b61550657f4846779a83fd22441839e8fbd12825d481ee9862a2efd80"
+      url "https://github.com/DokaDev/datarig/releases/download/v0.36.1/datarig-v0.36.1-x86_64-apple-darwin.tar.gz"
+      sha256 "78ccb4fa6a68763676f7211f20bb713454be38ab713634f81dcf18fa4d61dc54"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/DokaDev/datarig/releases/download/v0.36.0/datarig-v0.36.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "8fc239adb89cd364af7ff98480f7e0b19eef6c348bb643bd14b33b36bd94ce44"
+      url "https://github.com/DokaDev/datarig/releases/download/v0.36.1/datarig-v0.36.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "453a795989d27f50527ce558a876903c47bc3dcfefff771324be606448e5d23f"
     end
     on_intel do
-      url "https://github.com/DokaDev/datarig/releases/download/v0.36.0/datarig-v0.36.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "9354518751118e661fb97bfe8d42efd1c483156a4ac8b2e2f5596eb4430a973e"
+      url "https://github.com/DokaDev/datarig/releases/download/v0.36.1/datarig-v0.36.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "c7c31ade5469837fa2bd1265b14050964c945ba8df6e9ef754d3ab88e56120a7"
     end
   end
 
